@@ -73,14 +73,27 @@ nav.lang {
   margin-bottom: 1rem;
 }
 
+nav.lang {
+  display: inline-flex;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
 nav.lang a {
-  margin-right: 1rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
   text-decoration: none;
+  color: var(--muted);
 }
 
 nav.lang a.active {
   font-weight: 600;
-  text-decoration: underline;
+  color: var(--text);
+  background: var(--bg);
+  text-decoration: none;
 }
 
 .doc h2 {

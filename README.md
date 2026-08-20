@@ -16,8 +16,14 @@ web-assets/
 ├── _assets/style.css       # 共享样式
 └── calc-plus/              # Calc Plus 计算器
     ├── index.html
-    ├── privacy/index.html
-    └── terms/index.html
+    ├── privacy/
+    │   ├── index.html      # 按浏览器语言跳转 en / zh
+    │   ├── en.html
+    │   └── zh.html
+    └── terms/
+        ├── index.html
+        ├── en.html
+        └── zh.html
 ```
 
 新增项目时，在根目录 `index.html` 的项目列表中增加链接即可。
@@ -27,10 +33,14 @@ web-assets/
 | 文档 | URL |
 |------|-----|
 | 项目首页 | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/ |
-| 隐私政策 | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/privacy/ |
-| 使用条款 | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/terms/ |
+| 隐私政策（自动跳转） | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/privacy/ |
+| 隐私政策 · English | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/privacy/en.html |
+| 隐私政策 · 中文 | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/privacy/zh.html |
+| 使用条款（自动跳转） | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/terms/ |
+| 使用条款 · English | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/terms/en.html |
+| 使用条款 · 中文 | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/terms/zh.html |
 
-Play Console **隐私政策 URL** 请填写隐私政策地址。
+Play Console **隐私政策 URL** 建议填写英文版：`.../calc-plus/privacy/en.html`，或根路径 `.../privacy/`（会按浏览器语言跳转）。
 
 ## 启用 GitHub Pages
 

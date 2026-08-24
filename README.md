@@ -14,10 +14,20 @@
 web-assets/
 ├── index.html              # 站点首页（项目列表）
 ├── _assets/style.css       # 共享样式
-└── calc-plus/              # Calc Plus 计算器
+├── calc-plus/              # Calc Plus 计算器
+│   ├── index.html
+│   ├── privacy/
+│   │   ├── index.html      # 按浏览器语言跳转 en / zh
+│   │   ├── en.html
+│   │   └── zh.html
+│   └── terms/
+│       ├── index.html
+│       ├── en.html
+│       └── zh.html
+└── fingertip-notes/        # Fingertip Notes 笔记应用
     ├── index.html
     ├── privacy/
-    │   ├── index.html      # 按浏览器语言跳转 en / zh
+    │   ├── index.html
     │   ├── en.html
     │   └── zh.html
     └── terms/
@@ -41,6 +51,20 @@ web-assets/
 | 使用条款 · 中文 | https://origin-technology-co-ltd.github.io/web-assets/calc-plus/terms/zh.html |
 
 Play Console **隐私政策 URL** 建议填写英文版：`.../calc-plus/privacy/en.html`，或根路径 `.../privacy/`（会按浏览器语言跳转）。
+
+## Fingertip Notes 链接
+
+| 文档 | URL |
+|------|-----|
+| 项目首页 | https://origin-technology-co-ltd.github.io/web-assets/fingertip-notes/ |
+| 隐私政策（自动跳转） | https://origin-technology-co-ltd.github.io/web-assets/fingertip-notes/privacy/ |
+| 隐私政策 · English | https://origin-technology-co-ltd.github.io/web-assets/fingertip-notes/privacy/en.html |
+| 隐私政策 · 中文 | https://origin-technology-co-ltd.github.io/web-assets/fingertip-notes/privacy/zh.html |
+| 使用条款（自动跳转） | https://origin-technology-co-ltd.github.io/web-assets/fingertip-notes/terms/ |
+| 使用条款 · English | https://origin-technology-co-ltd.github.io/web-assets/fingertip-notes/terms/en.html |
+| 使用条款 · 中文 | https://origin-technology-co-ltd.github.io/web-assets/fingertip-notes/terms/zh.html |
+
+Play Console **隐私政策 URL** 建议填写英文版：`.../fingertip-notes/privacy/en.html`，或根路径 `.../privacy/`（会按浏览器语言跳转）。
 
 ## 启用 GitHub Pages
 

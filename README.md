@@ -42,6 +42,26 @@ web-assets/
 
 Play Console **隐私政策 URL** 建议填写英文版：`.../calc-plus/privacy/en.html`，或根路径 `.../privacy/`（会按浏览器语言跳转）。
 
+## AdMob app-ads.txt
+
+| 文件 | URL |
+|------|-----|
+| app-ads.txt | https://origin-technology-co-ltd.github.io/web-assets/app-ads.txt |
+
+Play Console / App Store Connect 里的**开发者网站**必须填：
+
+`https://origin-technology-co-ltd.github.io/web-assets`
+
+（与上表域名完全一致，不要漏掉 `/web-assets` 路径。）
+
+文件内容（IAB 规范）：
+
+```txt
+google.com, pub-2082434913159874, DIRECT, f08c47fec0942fa0
+```
+
+推送 `master` 到 GitHub 后，在 AdMob 控制台点「抓取验证」；通常几分钟到几小时生效。
+
 ## 启用 GitHub Pages
 
 仓库首次推送后，在 GitHub 仓库设置中：
